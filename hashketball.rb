@@ -172,6 +172,7 @@ def player_numbers(teamname)
       player_stats = info[:player]
       player_stats.each do |player|
         jersey_numbers << player[:number]
+        next
       end
     end
   end
