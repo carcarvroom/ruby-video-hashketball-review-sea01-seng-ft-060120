@@ -127,4 +127,5 @@ def game_hash
   }
 end
 
-# Write code here
+num_points_scored(playername)
+
